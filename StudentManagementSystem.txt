@@ -1,3 +1,5 @@
+#Student-Management-System
+
 
 from tkinter import *
 from tkinter import ttk
@@ -76,8 +78,6 @@ class Student :
         add_txt = Text(Manage_Frame, width=27,height = 2,fg ="#000000",  bd=1/2, relief=GROOVE, )
         add_txt.grid(row=7, column=2,sticky="w")
 
-
-
         # ***************************** Frame 3 *****
 
         btn_frm =Frame(Manage_Frame,bd = 2,relief =RIDGE,bg ="#fff000")
@@ -143,51 +143,15 @@ class Student :
 
         tab.pack(expand =True,fill =BOTH)
 
-
-
-
-
         # ******************** credit  ****************
-
-
-
+        
         credit =Frame(self.root,bg = "#ff0000",bd =0)
         credit.place(x =0,y =643,relwidth = 1,relheight =0.08,)
 
         c1 =Label(credit,text = "Developed By : Himangshu and team ,,,",font =("times new roman",20,"bold"),fg = "#ffffff",bg ="#ff0000")
         c1.grid(row = 0, column =0,padx =870,pady =10,sticky ="w")
 
-
-
-
-
 root= Tk()
 ob = Student(root)
 
-
-
-
 root.mainloop()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
