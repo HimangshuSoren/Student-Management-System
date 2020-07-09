@@ -1,6 +1,3 @@
-# Student-Management-System
-This is a computer project for class 12 students. In this project the students has to make an application using python module ( tkinter ),this is the only GUI part of the application, later on I will be adding the back end part of the program....
-
 
 from tkinter import *
 from tkinter import ttk
@@ -171,6 +168,19 @@ ob = Student(root)
 
 
 root.mainloop()
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
