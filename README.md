@@ -161,26 +161,3 @@ ob = Student(root)
 
 
 root.mainloop()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
