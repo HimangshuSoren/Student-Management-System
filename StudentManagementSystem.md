@@ -1,4 +1,7 @@
-<body>
+
+
+
+
 from tkinter import *
 from tkinter import ttk
 
@@ -162,7 +165,5 @@ class Student :
 
 root = Tk()
 ob = Student(root)
-
 root.mainloop()
 
-</body>
